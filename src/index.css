@@ -1,0 +1,114 @@
+*{
+  font-family: 'Inter';
+  font-style: normal; 
+}
+.nav--bar{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: #F55A5A;
+  height: 90px;
+  width:100%;
+  border-radius: 3px;
+}
+
+.nav--img{
+  height:30px;
+  width:30px;
+  position: relative;
+  top:28px;
+  margin-right: 12px;
+}
+
+.nav--heading{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  position:relative;
+  top:10px;
+}
+
+.body--img{
+  width: 250px;
+  height:300px;
+  border-radius: 15px;
+}
+
+.body{
+  display: flex;
+  flex-direction: row;
+  padding: 30px 56px;
+}
+
+.location--top{
+  display:flex;
+  flex-direction: row;
+  position: absolute;
+}
+
+.location--icon{
+  width: 10px;
+  height:13px;
+  position: relative;
+  left: 40px;
+  top: 40px;
+}
+
+.location--heading{
+  color: #2B283A;
+  font-size: 25px;
+  position: relative;
+  left: 45px;
+  top: 25px;
+  font-weight:400;
+  font-size: 16px;
+}
+
+.location--link{
+  color:#918E9B;
+  font-weight:400;
+  position: relative;
+  left: 55px;
+  top: 39px;
+  font-weight:400;
+  font-size: 15px; 
+}
+
+.location--bottom{
+  position: relative;
+  top: 40px;
+}
+
+.location--title{
+  position: relative;
+  left:40px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.location--date{
+  position: relative;
+  left: 40px;
+  font-weight:700;
+  font-size: 15px;
+}
+
+.location--description{
+  position: relative;
+  left: 40px;
+  font-weight: 400;
+  font-size: 17px;
+  width: 690px;
+}
+
+.line--breaker{
+  position: relative;
+  top: 150px;
+  left: -250px;
+  width: 1000px;
+  border: 1px solid #F5F5F5;
+}
