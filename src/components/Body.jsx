@@ -1,12 +1,13 @@
+/* eslint-disable react/prop-types */
 
 export default function Body (props){
   return (
-      <div className="body">
-        <div>
+      <div key={props.key} className="body">
+        <div className="img-box">
           <img src={props.item.imageUrl} alt="" className="body--img"/>
         </div>
-        <div>
-            <div className="location--top">
+        <div className="location-box">
+        <div className="location--top">
               <img src="./location.png" alt="" className="location--icon" />
               <h2 className="location--heading">{props.item.location}</h2>
               <a className="location--link" href={props.item.googleMapsUrl}>View on Google Maps</a>
